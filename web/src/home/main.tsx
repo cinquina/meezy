@@ -21,14 +21,14 @@ export function Home() {
         <Products />
       </main>
 
-      <footer className="flex items-center justify-center p-4 text-center gap-8">
+      <footer className="flex items-center justify-center p-6 text-center gap-8">
         {sections.map((section) => (
           <Button
             key={section}
             type="button"
             className={clsx(
-              "cursor-pointer pb-1 uppercase transition duration-200 ease-in-out outline-none text-black/25",
-              "data-hover:text-gray-200 data-active:scale-[0.98]",
+              "cursor-pointer text-sm pb-1 uppercase transition duration-200 ease-in-out outline-none text-black/60",
+              "data-hover:text-black/35 data-active:scale-[0.98]",
             )}
           >
             {section}
