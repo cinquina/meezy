@@ -5,13 +5,13 @@ export function BillingCard() {
     <div className="flex flex-col p-4 py-0">
       <h3 className="text-base font-medium mb-2">CONTACT INFORMATION</h3>
       <Field>
-        <Label className="text-sm">EMAIL ADDRESS</Label>
+        <Label>EMAIL ADDRESS</Label>
         <Input className="w-full border border-black p-3" />
       </Field>
-      <h3 className="text-base font-medium mb-2">BILLING ADDRESS</h3>
+      <h3 className="text-base font-medium mb-2 mt-5">BILLING ADDRESS</h3>
       <div className="flex flex-col gap-4 mb-2">
         <Field>
-          <Label className="text-sm">ADDRESS</Label>
+          <Label >ADDRESS</Label>
           <Input
             placeholder="START TYPING YOUR ADDRESS..."
             className="w-full border border-black p-3"
@@ -28,23 +28,24 @@ export function BillingCard() {
         </Field>
         <div className="grid grid-cols-2 grid-rows-2 gap-4">
           <Field className="flex-1">
-            <Label className="text-sm">CITY</Label>
+            <Label >CITY</Label>
             <Input className="w-full border border-black p-3" />
           </Field>
           <Field className="flex-1">
-            <Label className="text-sm">STATE / PROVINCE</Label>
+            <Label >STATE / PROVINCE</Label>
             <Input className="w-full border border-black p-3" />
           </Field>
           <Field className="flex-1">
-            <Label className="text-sm">ZIP / POSTAL CODE</Label>
+            <Label >ZIP / POSTAL CODE</Label>
             <Input className="w-full border border-black p-3" />
           </Field>
           <Field className="flex-1">
-            <Label className="text-sm">COUNTRY</Label>
+            <Label >COUNTRY</Label>
             <Input className="w-full border border-black p-3" />
           </Field>
         </div>
       </div>
+      <h3 className="text-base font-medium mb-2 mt-5">PAYMENT DETAILS</h3>
     </div>
   );
 }
