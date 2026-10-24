@@ -7,6 +7,7 @@ import { CartDrawer } from "./cart/main";
 
 export function Home() {
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState<string | null>(null);
 
   const sections: string[] = [
     "CONTACT",
@@ -23,8 +24,12 @@ export function Home() {
       <div className="flex min-h-screen flex-col">
         <Header onCartClick={() => setIsCartOpen(true)} />
 
-        <main className="flex-1">
-          <Products />
+        <main className="relative flex-1 overflow-hidden">
+          <Products
+            selectedProduct={selectedProduct}
+            onProductSelect={setSelectedProduct}
+            onClose={() => setSelectedProduct(null)}
+          />
         </main>
 
         <footer className="flex items-center justify-center gap-8 p-6 text-center">

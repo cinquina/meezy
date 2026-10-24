@@ -10,7 +10,7 @@ import {
   Label,
   Input,
 } from "@headlessui/react";
-import { FiShoppingBag, FiX } from "react-icons/fi";
+import { FiArrowLeft, FiShoppingBag, FiX } from "react-icons/fi";
 import { BillingCard } from "./billing";
 import { Cart } from "./cart";
 
@@ -47,7 +47,7 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
                     aria-label="Close cart"
                     className="cursor-pointer text-black transition duration-200 ease-in-out data-[hover]:opacity-60 data-[active]:scale-95"
                   >
-                    <FiX size={20} />
+                    <FiArrowLeft size={20} />
                   </Button>
                   <FiShoppingBag size={20} />
                 </div>
