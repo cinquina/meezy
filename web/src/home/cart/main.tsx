@@ -12,6 +12,7 @@ import {
 } from "@headlessui/react";
 import { FiShoppingBag, FiX } from "react-icons/fi";
 import { BillingCard } from "./billing";
+import { Cart } from "./cart";
 
 type CartDrawerProps = {
   open: boolean;
@@ -53,7 +54,7 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
 
                 <div className="flex-1 grid grid-cols-2 gap-6 overflow-y-auto p-4">
                   <BillingCard />
-                  <BillingCard />
+                  <Cart />
                 </div>
               </DialogPanel>
             </TransitionChild>
