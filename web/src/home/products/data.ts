@@ -1,11 +1,11 @@
 import type { Product } from "./types";
 
 export const products: Product[] = [
-  { id: "1", name: "Product 1", price: "$20" },
-  { id: "2", name: "Product 2", price: "$20" },
-  { id: "3", name: "Product 3", price: "$20" },
-  { id: "4", name: "Product 4", price: "$20" },
-  { id: "5", name: "Product 5", price: "$20" },
-  { id: "6", name: "Product 5", price: "$20" },
-  { id: "7", name: "Product 5", price: "$20" },
+  { id: "1", name: "Product 1", price: 20, image: "https://yeezy.com/cdn-cgi/image/width=200,height=200,quality=100,compression=fast,slow-connection-quality=80,fit=pad,gravity=center,background=transparent/https://cdn.swell.store/yzy-prod/6a7f84fcdb9a7000135ecd7f/6b2a582fb80d0a7dd4c0e6c690d6fcbc/image-1.png" },
+  { id: "2", name: "Product 2", price: 20, image: "https://yeezy.com/cdn-cgi/image/width=200,height=200,quality=100,compression=fast,slow-connection-quality=80,fit=pad,gravity=center,background=transparent/https://cdn.swell.store/yzy-prod/6a7f84fcdb9a7000135ecd7f/6b2a582fb80d0a7dd4c0e6c690d6fcbc/image-1.png" },
+  { id: "3", name: "Product 3", price: 20, image: "https://yeezy.com/cdn-cgi/image/width=200,height=200,quality=100,compression=fast,slow-connection-quality=80,fit=pad,gravity=center,background=transparent/https://cdn.swell.store/yzy-prod/6a7f84fcdb9a7000135ecd7f/6b2a582fb80d0a7dd4c0e6c690d6fcbc/image-1.png" },
+  { id: "4", name: "Product 4", price: 20, image: "https://yeezy.com/cdn-cgi/image/width=200,height=200,quality=100,compression=fast,slow-connection-quality=80,fit=pad,gravity=center,background=transparent/https://cdn.swell.store/yzy-prod/6a7f84fcdb9a7000135ecd7f/6b2a582fb80d0a7dd4c0e6c690d6fcbc/image-1.png" },
+  { id: "5", name: "Product 5", price: 20, image: "https://yeezy.com/cdn-cgi/image/width=200,height=200,quality=100,compression=fast,slow-connection-quality=80,fit=pad,gravity=center,background=transparent/https://cdn.swell.store/yzy-prod/6a7f84fcdb9a7000135ecd7f/6b2a582fb80d0a7dd4c0e6c690d6fcbc/image-1.png" },
+  { id: "6", name: "Product 5", price: 20, image: "https://yeezy.com/cdn-cgi/image/width=200,height=200,quality=100,compression=fast,slow-connection-quality=80,fit=pad,gravity=center,background=transparent/https://cdn.swell.store/yzy-prod/6a7f84fcdb9a7000135ecd7f/6b2a582fb80d0a7dd4c0e6c690d6fcbc/image-1.png" },
+  { id: "7", name: "Product 5", price: 20, image: "https://yeezy.com/cdn-cgi/image/width=200,height=200,quality=100,compression=fast,slow-connection-quality=80,fit=pad,gravity=center,background=transparent/https://cdn.swell.store/yzy-prod/6a7f84fcdb9a7000135ecd7f/6b2a582fb80d0a7dd4c0e6c690d6fcbc/image-1.png" },
 ];

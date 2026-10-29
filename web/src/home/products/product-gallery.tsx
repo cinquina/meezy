@@ -1,12 +1,15 @@
 import { Button } from "@headlessui/react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import type { Product } from "./types";
 
 export function ProductGallery({
+  product,
   hasPrevious,
   hasNext,
   onPrevious,
   onNext,
 }: {
+  product: Product;
   hasPrevious: boolean;
   hasNext: boolean;
   onPrevious: () => void;
@@ -19,7 +22,7 @@ export function ProductGallery({
           <FiChevronLeft size={28} />
         </Button>
       ) : <span className="w-7" aria-hidden="true" />}
-      <div className="h-64 w-64 rounded-full bg-gray-100 sm:h-96 sm:w-96" />
+      <img src={product.image} alt={product.name} className="h-64 w-64 rounded-full " />
       {hasNext ? (
         <Button type="button" onClick={onNext} aria-label="Next product" className="cursor-pointer">
           <FiChevronRight size={28} />

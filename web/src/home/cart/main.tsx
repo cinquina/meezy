@@ -1,16 +1,11 @@
 import {
   Dialog,
   DialogPanel,
-  DialogTitle,
   Transition,
   TransitionChild,
   Button,
-  Description,
-  Field,
-  Label,
-  Input,
 } from "@headlessui/react";
-import { FiArrowLeft, FiShoppingBag, FiX } from "react-icons/fi";
+import { FiArrowLeft, FiShoppingBag } from "react-icons/fi";
 import { BillingCard } from "./billing";
 import { Cart } from "./cart";
 

@@ -13,7 +13,7 @@ export function ProductCard({
       onClick={() => onSelect(product.id)}
       className="flex cursor-pointer flex-col items-center justify-center p-4 transition-transform duration-300 ease-in-out hover:scale-105"
     >
-      <div className="mb-4 h-24 w-24 rounded-full bg-gray-200" />
+      <img src={product.image} alt={product.name} className="w-32 h-32 object-cover" />
       <h3 className="text-base font-regular">{product.name}</h3>
     </button>
   );
