@@ -32,7 +32,7 @@ export function CartDrawer({ open, onClose }: CartDrawerProps) {
                 className="
                   flex h-full w-full max-w-full flex-col bg-white shadow-2xl
                   transition duration-300 ease-out
-                  data-[closed]:translate-x-full
+                  data-closed:translate-x-full
                 "
               >
                 <div className="flex items-center justify-between p-4">
